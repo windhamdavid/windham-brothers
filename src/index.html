@@ -10,19 +10,44 @@
 </head>
 <body>
 	<header>
-		<h1></h1>
+      <div class="container">
+		   <img src="img/vu.gif">
+      </div>
 	</header>
-	
-	<div class="center" style="width:800px; margin:50px auto;">
-		<img src="img/vu.gif">
-	<h1></h1>
-	<p></p> 
-	<div class="col" style="width:300px; float: left;">		
-		
-	</div>
-	<div class="col" style="width:300px; float: right;">
-		<h2></h2>
-	</div>
+
+
+<div class="container">
+   <div class="row">
+      <div class="col-sm-6">
+         <p>Woody Windham - iWoody Radio</p>
+         <!-- START Audio Player -->  
+         <div id="audio_player" class="panel panel-default">
+            <div class="panel-body">
+               <div id="controls">
+                  <div id="amplitude-play-pause" amplitude-song-index="0" class="amplitude-play-pause amplitude-paused"></div>
+               </div>
+            </div>
+         </div>
+         <!-- END Audio Player -->
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-sm-6"> 
+         <p>Leo Windham - Crossroads Radio</p>
+         <!-- START Audio Player -->  
+         <div id="audio_player" class="panel panel-default">
+            <div class="panel-body">
+               <div id="controls">
+                  <div id="amplitude-play-pause" amplitude-song-index="1" class="amplitude-play-pause amplitude-paused"></div>
+               </div>
+            </div>
+         </div>
+         <!-- END Audio Player -->
+      </div>
+   </div>
+</div>      
+      
+
 	
 	<footer>
 	

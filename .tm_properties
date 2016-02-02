@@ -1,0 +1,12 @@
+dwExtraExcludes = "log,vendor,tmp,node_modules,app"
+excludeInFileChooser  = "{$excludeInFileChooser,$dwExtraExcludes}" 
+excludeInFolderSearch = "{$excludeInFolderSearch,$dwExtraExcludes}" 
+excludeInBrowser      = "{$excludeInBrowser,log,vendor,tmp,node_modules}" 
+includeFiles = "{.jshintrc,.gitignore}"
+
+showInvisibles = true
+softTabs = true
+tabSize = 2
+
+projectDirectory = "$CWD"
+windowTitle = "$TM_DISPLAYNAME — ${CWD/^.*\///} ($TM_SCM_BRANCH)"

@@ -17,6 +17,13 @@ Amplitude.init({
 
 /**** Page Features ****/
 
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+$('#amplitude-play-pause').tooltip(options)
+
+
 $(document).ready(function() {
 
 });

@@ -1,52 +1,6 @@
-body {
-	margin: 20px;
-	padding: 20px;
-	background: #cecece;
-	font-size:18px;
-}
-h1 {
-	color:#222;
-	margin:15px 0 0;
-	font-size: 27px;
-	text-shadow: 2px 2px #999;
-}
-img {
-	float:right;
-	padding:10px 0;
-}
-p {
-	color: #222;
-	list-style:none;
-	line-height:16px;
-	text-decoration:none;
-	margin:7px 10px;
-}
-a {
-	color: #888;
-	list-style:none;
-	line-height:14px;
-	text-decoration:none;
-}
-li {
-	color: #333;
-	list-style:none;
-	line-height:16px;
-	text-decoration:none;
-}
-a:hover {
-	color: #fff;
-}
-::selection {
-	background: #6699ff;
-	}
-::-moz-selection {
-	background: #333;
-}
-.clear {clear:both}
-
 
 header {
-	background: img(img/back.jpg);
+	background: url(img/back.jpg);
 }
 
 
@@ -54,13 +8,22 @@ header {
 #footer {clear:both; text-align:center;}
 
 
+
+
+
+
+
+
+
+
+
+
 /***********************************
 ========== Audio Player ============ 
 ***********************************/
 
 #audio_player {
-  background-color: #f7f7f7;
-
+  
 }
 
 div#player{
